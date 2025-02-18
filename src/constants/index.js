@@ -19,79 +19,122 @@ import {
   tailwindcss,
   threads,
   typescript,
+  aws,
+  azure,
+  figma,
+  bootstrap,
 } from "../assets/icons";
 
 export const skills = [
   {
-    imageUrl: css,
-    name: "CSS",
-    type: "Frontend",
-  },
-  {
-    imageUrl: express,
-    name: "Express",
-    type: "Backend",
-  },
-  {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
-  },
-  {
-    imageUrl: github,
-    name: "GitHub",
-    type: "Version Control",
-  },
-  {
     imageUrl: html,
     name: "HTML",
     type: "Frontend",
+    title: "HTML",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+    title: "CSS",
+  },
+  {
+    imageUrl: bootstrap,
+    name: "bootstrap",
+    type: "Frontend",
+    title: "Bootstrap",
+  },
+  {
+    imageUrl: sass,
+    name: "Sass",
+    type: "Frontend",
+    title: "SCSS",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "TailwindCSS",
+    type: "Frontend",
+    title: "Tailwind",
   },
   {
     imageUrl: javascript,
     name: "JavaScript",
     type: "Frontend",
-  },
-  {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: redux,
-    name: "redux.js",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
+    title: "JavaScript",
   },
   {
     imageUrl: react,
     name: "React",
     type: "Frontend",
+    title: "ReactJS",
+  },
+  {
+    imageUrl: redux,
+    name: "redux.js",
+    type: "Frontend",
+    title: "redux",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+    title: "Node",
+  },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+    title: "Express",
+  },
+  {
+    imageUrl: mongodb,
+    name: "MongoDB",
+    type: "Database",
+    title: "MongoDB",
+  },
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+    title: "Git",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+    title: "GitHub",
   },
 
   {
-    imageUrl: sass,
-    name: "Sass",
+    imageUrl: mui,
+    name: "Material-UI",
     type: "Frontend",
+    title: "Material-UI",
   },
-  {
-    imageUrl: tailwindcss,
-    name: "Tailwind CSS",
-    type: "Frontend",
-  },
+
   {
     imageUrl: typescript,
     name: "TypeScript",
     type: "Frontend",
+    title: "TypeScript",
+  },
+  {
+    imageUrl: aws,
+    name: "aws",
+    type: "skill",
+    title: "AWS",
+  },
+  {
+    imageUrl: azure,
+    name: "azure",
+    type: "skill",
+    title: "Azure",
+  },
+  {
+    imageUrl: figma,
+    name: "figma",
+    type: "skill",
+    title: "Figma",
   },
 ];
 
@@ -112,8 +155,9 @@ export const experiences = [
     title: "MERN stack Internship Program",
     company_name: "Edureka",
     icon: edureka,
-    iconBg: "#a2d2ff",
+    iconBg: "#175093",
     date: "July 2023 - Dec 2023",
+    padding: 10,
     points: [
       "Gain hands-on experience with the MERN stack (MongoDB, Express.js, React.js, Node.js).",
       "Receive guidance and mentorship from experienced professionals in the field, helping you navigate challenges and providing insights into best practices.",

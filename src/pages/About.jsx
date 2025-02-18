@@ -27,19 +27,20 @@ const About = () => {
         </p>
       </div>
 
-      <div className='py-10 flex flex-col'>
+      <div className='py-8 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
             <div className='block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl' />
-              <div className='btn-front rounded-xl flex justify-center items-center'>
+              <div className='btn-front rounded-xl flex justify-center items-center flex-col gap-3'>
                 <img
                   src={skill.imageUrl}
                   alt={skill.name}
                   className='w-1/2 h-1/2 object-contain'
                 />
+                <span className="text-[14px]">{skill.title}</span>
               </div>
             </div>
           ))}
@@ -63,11 +64,12 @@ const About = () => {
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={
-                  <div className='flex justify-center items-center w-full h-full'>
+                  <div className='flex justify-center items-center w-full h-full overflow-hidden rounded-full'>
                     <img
                       src={experience.icon}
                       alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
+                      className='w-full h-full object-contain'
+                      style={{ padding: experience?.padding ? experience?.padding : 0 }}
                     />
                   </div>
                 }
