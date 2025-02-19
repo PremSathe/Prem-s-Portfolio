@@ -5,7 +5,7 @@ const Navbar = () => {
     <header className='header'>
       <NavLink to='/'>
         <div className="w-20 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md">
-          <p className="blue-gradient_text">HOME</p>
+          <p className="blue-gradient_text">Home</p>
         </div>
 
       </NavLink>

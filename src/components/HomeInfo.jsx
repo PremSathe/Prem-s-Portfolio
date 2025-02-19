@@ -7,14 +7,14 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
         Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Prem</span>
-        👋
+        <span className='font-semibold mx-2 text-white'>Prem Sathe</span>
+
         <br />
-        A Frontend Developer from Mumbai 
+        A Frontend Developer from Mumbai
       </h1>
     );
 
-  if (currentStage === 2) {
+  if (currentStage === 0) {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
@@ -29,7 +29,7 @@ const HomeInfo = ({ currentStage }) => {
     );
   }
 
-  if (currentStage === 3) {
+  if (currentStage === 0) {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
@@ -44,18 +44,18 @@ const HomeInfo = ({ currentStage }) => {
     );
   }
 
-  if (currentStage === 4) {
+  if (currentStage === 0) {
     return (
       <div className='info-box'>
-      <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
-      </p>
+        <p className='font-medium sm:text-xl text-center'>
+          Need a project done or looking for a dev? <br /> I'm just a few keystrokes away
+        </p>
 
-      <Link to='/contact' className='neo-brutalism-white neo-btn'>
-        Let's talk
-        <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
-      </Link>
-    </div>
+        <Link to='/contact' className='neo-brutalism-white neo-btn'>
+          Let's talk
+          <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+        </Link>
+      </div>
     );
   }
 

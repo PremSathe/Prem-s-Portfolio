@@ -1,6 +1,9 @@
 import { GeekRider, edureka, mahindra } from "../assets/images";
 import {
-  car,
+  restaurant,
+  chatgpt,
+  robot,
+  bank,
   contact,
   css,
   express,
@@ -12,12 +15,10 @@ import {
   mongodb,
   mui,
   nodejs,
-  pricewise,
   react,
   redux,
   sass,
   tailwindcss,
-  threads,
   typescript,
   aws,
   azure,
@@ -72,19 +73,19 @@ export const skills = [
     imageUrl: redux,
     name: "redux.js",
     type: "Frontend",
-    title: "redux",
+    title: "Redux",
   },
   {
     imageUrl: nodejs,
     name: "Node.js",
     type: "Backend",
-    title: "Node",
+    title: "NodeJS",
   },
   {
     imageUrl: express,
     name: "Express",
     type: "Backend",
-    title: "Express",
+    title: "ExpressJS",
   },
   {
     imageUrl: mongodb,
@@ -152,7 +153,7 @@ export const experiences = [
     ],
   },
   {
-    title: "MERN stack Internship Program",
+    title: "MERN stack (Internship) ",
     company_name: "Edureka",
     icon: edureka,
     iconBg: "#175093",
@@ -167,7 +168,7 @@ export const experiences = [
 
   {
     title: "Frontend Developer (React-JS)",
-    company_name: "Mahindra & Mahindra",
+    company_name: "Mahindra",
     icon: mahindra,
     iconBg: "#000",
     date: "Feb 2024 - Present",
@@ -201,7 +202,7 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: restaurant,
     theme: "btn-back-red",
     name: "Prems_Restaurant ",
     description:
@@ -210,7 +211,7 @@ export const projects = [
     link: "https://prems-restaurant.vercel.app/",
   },
   {
-    iconUrl: threads,
+    iconUrl: chatgpt,
     theme: "btn-back-green",
     name: "GPT3-clone",
     description:
@@ -219,12 +220,20 @@ export const projects = [
     link: "https://gpt-3-clone-two.vercel.app/",
   },
   {
-    iconUrl: car,
+    iconUrl: bank,
     theme: "btn-back-blue",
     name: "Modern-Bank App",
     description:
       "The Modern-Bank app, crafted with React and styled with Tailwind CSS, provides a visually appealing and responsive banking interface. Seamlessly blending React's functionality with Tailwind's utility-first styling, users can experience a modern and aesthetically pleasing platform for efficient financial management.",
     // link: 'https://github.com/PremSathe/Modern-Bank.git', // git-link
     link: "https://modern-bank-seven.vercel.app/",
+  },
+  {
+    iconUrl: robot,
+    theme: "btn-back-pink",
+    name: "SHIFRA-AI",
+    description:
+      "Shifra AI Virtual Assistant, built with React and styled with Tailwind CSS, offers a sleek, responsive interface for seamless task management. Integrated with the Gemini API, it delivers intelligent, real-time assistance, combining modern design with powerful functionality for an efficient user experience.",
+    link: "https://shifra-ai.vercel.app/",
   },
 ];
